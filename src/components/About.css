@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-lg-6 {
+    width: 50%;
+    padding: 15px;
+}
+
+
+
+/* About Section */
+.about-section {
+    padding: 40px 0;
+    background-color: whitesmoke;
+}
+
+.heading .entry-title {
+    font-size: 58px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.heading p{
+   color: rgba(0, 0, 0, 0.582);
+       font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.ezuca-stats {
+    margin-top: 20px;
+}
+
+.stats-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats-count {
+    text-align: center;
+    font-size: 54px;
+    color: rgb(11, 185, 11);
+
+}
+
+.stats-count span {
+    font-size: 16px;
+}
+
+.stats-count p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+.ezuca-video {
+    position: relative;
+    margin-top: 30px;
+}
+
+.ezuca-video img {
+    width: 60%;
+    display: block;
+}
+
+
+.video-play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Testimonial Section */
+.testimonial-section {
+    padding: 40px 0;
+}
+
+.swiper-container {
+    width: 100%;
+}
+
+.swiper-slide {
+    padding: 20px 0;
+}
+
+.user-avatar img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.entry-content {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.entry-footer {
+    margin-top: 15px;
+}
+
+.testimonial-user {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.testimonial-user span {
+    font-size: 14px;
+    color: #666;
+}
+
+.swiper-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* Utility Classes */
+.mt-5 {
+    margin-top: 30px;
+}
+
+.mt-lg-0 {
+    margin-top: 0;
+}
+
+
+@media (max-width: 992px) {
+    .col-lg-6 {
+        width: 100%;
+    }
+}

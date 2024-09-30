@@ -1,0 +1,188 @@
+/* Container and Row */
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+.sectionFeatures{
+    background-color: whitesmoke;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+.col-12 {
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col-md-6 {
+    width: 50%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col-lg-4 {
+    width: 33.3333%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* Header and Menu */
+.heading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.courses-menu li {
+    margin-right: 1rem;
+}
+
+.courses-menu li.active a {
+    font-weight: bold;
+    color: #3b82f6;
+}
+
+/* Course Content */
+.course-content {
+    margin-bottom: 2rem;
+}
+
+.course-thumbnail {
+    margin-bottom: 1rem;
+}
+
+.course-thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+/* Course Content Wrapper */
+.course-content-wrap {
+    background-color: white;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+/* Entry Header */
+.entry-header {
+    margin-bottom: 0.5rem;
+}
+
+.entry-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.entry-title a {
+    color: #4a5568;
+    text-decoration: none;
+}
+
+.entry-title a:hover {
+    color: #3b82f6;
+}
+
+/* Meta Information */
+.entry-meta {
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    color: #a0aec0;
+    margin-bottom: 1rem;
+}
+
+.course-author a {
+    color: #718096;
+    text-decoration: none;
+}
+
+.course-author a:hover {
+    color: #3b82f6;
+}
+
+/* Footer */
+.entry-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Course Pricing */
+.course-cost {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #48bb78;
+}
+
+.price-drop {
+    text-decoration: line-through;
+    color: #f56565;
+    margin-left: 0.5rem;
+}
+
+/* Course Ratings */
+.course-ratings {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.course-ratings .fa {
+    color: #fbbf24;
+}
+
+.course-ratings-count {
+    margin-left: 0.5rem;
+    font-size: 0.875rem;
+    color: #718096;
+}
+
+/* Free Pricing */
+.free-cost {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #48bb78;
+}
+
+/* Button */
+.btn {
+    background-color:white;
+    color: black;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    display: inline-block;
+    border: 3px solid green;
+       
+}
+
+.btn:hover {
+    background-color: green;
+    color: white;
+}
+
+/* Miscellaneous */
+.checked {
+    color: #fbbf24;
+}
+
+.fa-star-o {
+    color: #e2e8f0
+}
